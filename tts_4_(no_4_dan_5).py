@@ -7,10 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1OsE2MAOG8TxIW2X8GE7s6eVj85PQEjfL
 """
 
-def hitung_harga_bahan_baku():
-    # Input data dari pengguna
-    nama_bahan = input("Masukkan nama bahan baku: ")
-
+def hitung_harga_bahan_baku(nama_bahan, jumlah_dibeli):
     try:
         jumlah_dibeli = float(input("Masukkan jumlah bahan baku (kg/unit): "))
         harga_per_unit = float(input("Masukkan harga per unit (Rp): "))
