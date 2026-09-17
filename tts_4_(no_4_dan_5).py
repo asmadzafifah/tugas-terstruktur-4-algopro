@@ -7,10 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1OsE2MAOG8TxIW2X8GE7s6eVj85PQEjfL
 """
 
-def hitung_harga_bahan_baku():
-    # Input data dari pengguna
-    nama_bahan = input("Masukkan nama bahan baku: ")
-
+def kelola_daftar_tugas():
+    daftar_tugas = []
     try:
         jumlah_dibeli = float(input("Masukkan jumlah bahan baku (kg/unit): "))
         harga_per_unit = float(input("Masukkan harga per unit (Rp): "))
@@ -51,7 +49,7 @@ def hitung_harga_bahan_baku():
     print(f"Jumlah Efektif Layak Pakai: {jumlah_efektif:.2f} kg/unit")
     print("-" * 40)
     print(f"HPP Bahan Baku (Real)   : Rp {harga_pokok_efektif_per_unit:,.2f} / kg")
-    print("="*40)
+    print("="*80)
 
 # Jalankan fungsi
 hitung_harga_bahan_baku()
