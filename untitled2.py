@@ -8,6 +8,7 @@ Original file is located at
 """
 
 # Program Harga Jual Produk Agroindustri
+def hitung_harga_bahan_baku(nama_bahan,jumlah_dibeli):
 
 print("=== PROGRAM HARGA JUAL PRODUK AGROINDUSTRI ===")
 
