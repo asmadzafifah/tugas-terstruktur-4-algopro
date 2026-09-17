@@ -51,7 +51,7 @@ def hitung_harga_bahan_baku():
     print(f"Jumlah Efektif Layak Pakai: {jumlah_efektif:.2f} kg/unit")
     print("-" * 40)
     print(f"HPP Bahan Baku (Real)   : Rp {harga_pokok_efektif_per_unit:,.2f} / kg")
-    print("="*60)
+    print("="*50)
 
 # Jalankan fungsi
 hitung_harga_bahan_baku()
